@@ -1,0 +1,21 @@
+name: CPU checks
+on: [push, pull_request]
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: python -m pip install numpy==1.26.4 scipy==1.15.3 Pillow==11.3.0 PyYAML==6.0.2 omegaconf==2.3.0 pyquaternion==0.9.9 build 'setuptools>=77' wheel 'ruff>=0.14,<1'
+      - run: python -m pip install --no-build-isolation --no-deps -e .
+      - run: python -m unittest discover -s tests -v
+      - run: ruff check --config pyproject.toml pixelpilot verl scripts tests LLaMAFactory/src
+      - run: python -m compileall -q pixelpilot verl scripts LLaMAFactory/src
+      - run: bash -n scripts/train_grpo.sh scripts/train_sft.sh
+      - run: bash scripts/train_sft.sh --dry-run
+      - run: MODEL_PATH=pretrained_models/pixelpilot-7b-sft bash scripts/train_grpo.sh --dry-run
+      - run: python -m build --no-isolation
+      - run: python -m build --no-isolation --wheel LLaMAFactory
+      - run: python scripts/audit_release.py

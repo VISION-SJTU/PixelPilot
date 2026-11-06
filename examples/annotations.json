@@ -1,0 +1,18 @@
+[
+  {
+    "id": "synthetic-example-001",
+    "images": [
+      "synthetic/example.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image> Synthetic format example. Predict six future image-space waypoints."
+      },
+      {
+        "role": "assistant",
+        "content": "<perception>[{\"bbox_2d\": [350, 180, 430, 260], \"label\": \"car\"}]</perception><think>The car ahead is in the planned path.</think><action>FORWARD, DECELERATE</action><answer>[392, 400], [392, 350], [392, 320], [392, 300], [392, 285], [392, 275]</answer>"
+      }
+    ]
+  }
+]

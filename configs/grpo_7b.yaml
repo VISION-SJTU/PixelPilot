@@ -1,0 +1,61 @@
+# Derived from run_nusc_7b_4x80G_down2x_fb_mix.sh; see docs/reproduction.md.
+data:
+  train_files: data/nuscenes_grpo
+  val_files: null
+  prompt_key: problem
+  max_prompt_length: 1300
+  max_response_length: 4096
+  rollout_batch_size: 16
+  shuffle: true
+  seed: 42
+  max_pixels: 720000
+  min_pixels: 3136
+algorithm:
+  adv_estimator: grpo
+  kl_coef: 0.0
+worker:
+  actor:
+    global_batch_size: 16
+    micro_batch_size_per_device_for_update: 2
+    micro_batch_size_per_device_for_experience: 2
+    max_grad_norm: 1.0
+    use_kl_loss: true
+    kl_loss_coef: 1.0e-2
+    kl_loss_type: low_var_kl
+    model:
+      model_path: checkpoints/pixelpilot-7b-sft
+      enable_gradient_checkpointing: true
+    optim:
+      lr: 1.0e-6
+      weight_decay: 1.0e-2
+    fsdp:
+      param_offload: false
+      optimizer_offload: false
+      torch_dtype: null
+    offload:
+      param_offload: true
+      optimizer_offload: true
+  rollout:
+    temperature: 1.0
+    tensor_parallel_size: 2
+    gpu_memory_utilization: 0.4
+    n: 8
+    enable_chunked_prefill: false
+  ref:
+    offload:
+      param_offload: true
+  reward:
+    reward_type: function
+    compute_score: nuscenes
+trainer:
+  total_episodes: 1
+  logger: [console]
+  project_name: pixelpilot
+  experiment_name: nuscenes_7b_grpo
+  n_gpus_per_node: 4
+  nnodes: 1
+  save_freq: 2000
+  test_freq: -1
+  val_before_train: false
+  val_only: false
+  save_checkpoint_path: checkpoints/nuscenes_7b_grpo

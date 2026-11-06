@@ -1,0 +1,1299 @@
+[
+  {
+    "source": "Seg-Zero-main/verl/__init__.py",
+    "destination": "verl/__init__.py",
+    "original_sha256": "540e9246d62d583505b68da4a9b9d0ed6cc0f18a31877c50e75858bd750105c3"
+  },
+  {
+    "source": "Seg-Zero-main/verl/models/__init__.py",
+    "destination": "verl/models/__init__.py",
+    "original_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c"
+  },
+  {
+    "source": "Seg-Zero-main/verl/models/registry.py",
+    "destination": "verl/models/registry.py",
+    "original_sha256": "6b7f7f3ebfb8ae2df97536fdac95f7111f159c34dc4053ed4da78ca2973bc415"
+  },
+  {
+    "source": "Seg-Zero-main/verl/models/transformers/__init__.py",
+    "destination": "verl/models/transformers/__init__.py",
+    "original_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c"
+  },
+  {
+    "source": "Seg-Zero-main/verl/models/transformers/llama.py",
+    "destination": "verl/models/transformers/llama.py",
+    "original_sha256": "5ca6664dbfb11a03d47fad1733126678fa4798168e61f36491fe005d63b04363"
+  },
+  {
+    "source": "Seg-Zero-main/verl/models/transformers/monkey_patch.py",
+    "destination": "verl/models/transformers/monkey_patch.py",
+    "original_sha256": "294110e04f1dd6285198bd18d2f96999c92fc2219db3b1acb527a2c8cb80b5a0"
+  },
+  {
+    "source": "Seg-Zero-main/verl/models/transformers/qwen2.py",
+    "destination": "verl/models/transformers/qwen2.py",
+    "original_sha256": "c69dddef7127e60b6fe7ec4d20f114d0c1d3f4079e46ee8fa7929ad2ad874b6a"
+  },
+  {
+    "source": "Seg-Zero-main/verl/models/transformers/qwen2_5_vl.py",
+    "destination": "verl/models/transformers/qwen2_5_vl.py",
+    "original_sha256": "3ce6a92aa663607d35f43d0a324642cb4acc98874c2236d744318a979d70b585"
+  },
+  {
+    "source": "Seg-Zero-main/verl/protocol.py",
+    "destination": "verl/protocol.py",
+    "original_sha256": "5ac7357255b84aa615c3629d588b561c7f41271be93c3b76ff88a857968ccff3"
+  },
+  {
+    "source": "Seg-Zero-main/verl/single_controller/__init__.py",
+    "destination": "verl/single_controller/__init__.py",
+    "original_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c"
+  },
+  {
+    "source": "Seg-Zero-main/verl/single_controller/base/__init__.py",
+    "destination": "verl/single_controller/base/__init__.py",
+    "original_sha256": "d1cfff13cd3d75e40e547b1c382d7317741b03e73f41db3433158e03554f57bb"
+  },
+  {
+    "source": "Seg-Zero-main/verl/single_controller/base/decorator.py",
+    "destination": "verl/single_controller/base/decorator.py",
+    "original_sha256": "ceae131102401c3d5935c1519b197b43d0d9b8e2f62c59132f0c6bcbd42ebec9"
+  },
+  {
+    "source": "Seg-Zero-main/verl/single_controller/base/register_center/__init__.py",
+    "destination": "verl/single_controller/base/register_center/__init__.py",
+    "original_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c"
+  },
+  {
+    "source": "Seg-Zero-main/verl/single_controller/base/register_center/ray.py",
+    "destination": "verl/single_controller/base/register_center/ray.py",
+    "original_sha256": "7c0a3ea7a3f49b4bbd0a5b0f51136b160dca09cdfded5f52ed4d72aa011bce1e"
+  },
+  {
+    "source": "Seg-Zero-main/verl/single_controller/base/worker.py",
+    "destination": "verl/single_controller/base/worker.py",
+    "original_sha256": "412be304feab4cf438348f3078e528c3272deeaafde18987a4c4829ea2dbfb46"
+  },
+  {
+    "source": "Seg-Zero-main/verl/single_controller/base/worker_group.py",
+    "destination": "verl/single_controller/base/worker_group.py",
+    "original_sha256": "73cffa4cb81e755ae643c8b6e5b0a12f5887f080ab1fbacfcca85bfda64ef025"
+  },
+  {
+    "source": "Seg-Zero-main/verl/single_controller/ray/__init__.py",
+    "destination": "verl/single_controller/ray/__init__.py",
+    "original_sha256": "5fc70fda13efb9a61e43b268b93cc3ce7fd48988e34d59d9a8fd520d7aa8ec72"
+  },
+  {
+    "source": "Seg-Zero-main/verl/single_controller/ray/base.py",
+    "destination": "verl/single_controller/ray/base.py",
+    "original_sha256": "12abdde868682345b7c0b3abc1f31f7d45a1f2b2995da3de9468552261de0567"
+  },
+  {
+    "source": "Seg-Zero-main/verl/trainer/__init__.py",
+    "destination": "verl/trainer/__init__.py",
+    "original_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c"
+  },
+  {
+    "source": "Seg-Zero-main/verl/trainer/config.py",
+    "destination": "verl/trainer/config.py",
+    "original_sha256": "eb7ab115132bf4b7248b13136a8a428c6d039d4e8c44ddfe3ef89c3382936e26"
+  },
+  {
+    "source": "Seg-Zero-main/verl/trainer/core_algos.py",
+    "destination": "verl/trainer/core_algos.py",
+    "original_sha256": "5056a6f070f3f97d3413c036f82f275466d48389f4106071ed6d3540355f941a"
+  },
+  {
+    "source": "Seg-Zero-main/verl/trainer/main.py",
+    "destination": "verl/trainer/main.py",
+    "original_sha256": "5724f08904e64a08c016a0033f131e589e78abd71d092ed0bd9ddf8e54588ead"
+  },
+  {
+    "source": "Seg-Zero-main/verl/trainer/ray_trainer.py",
+    "destination": "verl/trainer/ray_trainer.py",
+    "original_sha256": "7dc466f70c6559df0da653d6f62f531b03ac23f940482efe0dd1c975addadc88"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/__init__.py",
+    "destination": "verl/utils/__init__.py",
+    "original_sha256": "bfb2483b291170b15fa78a0295eb80aeca13dd72e180ab20feb3144951e9fc3a"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/checkpoint/__init__.py",
+    "destination": "verl/utils/checkpoint/__init__.py",
+    "original_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/checkpoint/checkpoint_manager.py",
+    "destination": "verl/utils/checkpoint/checkpoint_manager.py",
+    "original_sha256": "7ffbe0fdb1438618b063ce9e20e06f075655f18cad3985d7c273cc9d12afb631"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/checkpoint/fsdp_checkpoint_manager.py",
+    "destination": "verl/utils/checkpoint/fsdp_checkpoint_manager.py",
+    "original_sha256": "8d7f88e6e9bac80ddba5a131b9a1df1bff751105358efc42169e5fde7d56a77c"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/flops_counter.py",
+    "destination": "verl/utils/flops_counter.py",
+    "original_sha256": "eaf681d52eb3df7cf2c32f6ed3173885af347d95a81d4fe465a71a8dcbc9965e"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/fsdp_utils.py",
+    "destination": "verl/utils/fsdp_utils.py",
+    "original_sha256": "4099812b859350fe858bb3240b00a8b9b03fc7d498a9cda7f9725dd959c079cc"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/logger/__init__.py",
+    "destination": "verl/utils/logger/__init__.py",
+    "original_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/logger/aggregate_logger.py",
+    "destination": "verl/utils/logger/aggregate_logger.py",
+    "original_sha256": "14c3e7b1997cab902283bbd944cd1520e25579acc49b1c42ec05e65e40e585d8"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/model_utils.py",
+    "destination": "verl/utils/model_utils.py",
+    "original_sha256": "a943b55c1232443d458dc85b177b41b147bf694fc9342d8f63ba31a91e8ed755"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/performance.py",
+    "destination": "verl/utils/performance.py",
+    "original_sha256": "3f1f4ae567021dc251fbf0ff6a60b45db2ea07a2ed0c214f9560f2c6c11f2605"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/py_functional.py",
+    "destination": "verl/utils/py_functional.py",
+    "original_sha256": "3f5beb95df8b80ae859d00e3d35af5e4e8d4d16d4bdb0e51ebd0c8605a4109b5"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/reward_score/__init__.py",
+    "destination": "verl/utils/reward_score/__init__.py",
+    "original_sha256": "d25f3861965c8ac8a24f905fe24953ff4d5e69f34cd686c8da1fef076b179063"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/reward_score/nuscenes_reward.py",
+    "destination": "verl/utils/reward_score/nuscenes_reward.py",
+    "original_sha256": "ab9b0c781fad88e6abc0450e99031504406af44be9ce252e72c8e5f09bd85abd"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/rl_dataset.py",
+    "destination": "verl/utils/rl_dataset.py",
+    "original_sha256": "2f4742384edebce2dd162a74e57835615f0f223f7f49af450437cc4e81eb09d9"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/tokenizer.py",
+    "destination": "verl/utils/tokenizer.py",
+    "original_sha256": "2217be4296f0c297bde94886517ad76ad4425545e300ff8c2e4337f1b9de76f4"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/torch_dtypes.py",
+    "destination": "verl/utils/torch_dtypes.py",
+    "original_sha256": "2a7a155f594b5db76b2b7fd0454be9af9a233ed1fbdc853e43727a2845c02860"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/torch_functional.py",
+    "destination": "verl/utils/torch_functional.py",
+    "original_sha256": "abce3336216c17cdbdae86aedd9205c9d26d04b4f814a90b5d45e403cf4db20e"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/tracking.py",
+    "destination": "verl/utils/tracking.py",
+    "original_sha256": "aa953e789e9e5f2eb39aadabec7bd69da7e36a3d005b4eab63871897be3d6d2e"
+  },
+  {
+    "source": "Seg-Zero-main/verl/utils/ulysses.py",
+    "destination": "verl/utils/ulysses.py",
+    "original_sha256": "d358b999a7207e04a70d1170c51379080bde575872f1c8236741573929c35ac6"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/__init__.py",
+    "destination": "verl/workers/__init__.py",
+    "original_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/actor/__init__.py",
+    "destination": "verl/workers/actor/__init__.py",
+    "original_sha256": "d235ff3dd6a733449145c58bb9ec37a6f4bcd5a1cde00f309ee8a7f68197451a"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/actor/base.py",
+    "destination": "verl/workers/actor/base.py",
+    "original_sha256": "15724fe39bfbd3ba9fe3c671db5c15492a988113ef9a25b5caa063ec28005508"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/actor/config.py",
+    "destination": "verl/workers/actor/config.py",
+    "original_sha256": "5984cd5f0eeb1366c4c9aff61a9da018deae32aa9a2ec038507e6f7091b7a51d"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/actor/dp_actor.py",
+    "destination": "verl/workers/actor/dp_actor.py",
+    "original_sha256": "bc299f40085bbedf7995575c48c4b617afbc7697556b5c576ff5d465247f48b4"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/config.py",
+    "destination": "verl/workers/config.py",
+    "original_sha256": "4134b084d06e079df1226f350abca3b6cf16ed1445c4917b5cbfd3cfd70d2605"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/critic/__init__.py",
+    "destination": "verl/workers/critic/__init__.py",
+    "original_sha256": "dc763ffd05bf1bcafdb0084059865a852e184b43c2c7fd1440ae014fbe7c2171"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/critic/base.py",
+    "destination": "verl/workers/critic/base.py",
+    "original_sha256": "02628526b2701e832d694a3e6ed548b2169d4d734bf08fe0bbad05ee35d5cc49"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/critic/config.py",
+    "destination": "verl/workers/critic/config.py",
+    "original_sha256": "98fdd3c554f90ed972df3d9a5356d72824126c10b69d5fa9ec7437f2cbd17718"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/critic/dp_critic.py",
+    "destination": "verl/workers/critic/dp_critic.py",
+    "original_sha256": "61df360b48c7ca0719a8fff012ee453904867dfefc405904ea704473fb101c44"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/fsdp_workers.py",
+    "destination": "verl/workers/fsdp_workers.py",
+    "original_sha256": "c2e127c58f1d64200ded1f2d5a36795d2d3d110ba4b3108d9871ea037b8ac9e6"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/reward/__init__.py",
+    "destination": "verl/workers/reward/__init__.py",
+    "original_sha256": "f4e72c02f0a1fca2d14ba1d684f985e36036a76d82dc4998a70b269d1a115aaf"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/reward/config.py",
+    "destination": "verl/workers/reward/config.py",
+    "original_sha256": "08d6c99ffcb97aa17cb1c138f971512d136c9b6362e1df2e143b67235fdc0477"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/reward/custom.py",
+    "destination": "verl/workers/reward/custom.py",
+    "original_sha256": "6b2e9a696b7cd8bdbbe162039670e9e20db0dae84e0517f6dae350acf93aeecd"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/rollout/__init__.py",
+    "destination": "verl/workers/rollout/__init__.py",
+    "original_sha256": "4809e386fcb999f2c7bd11e6221c29a54ff0fc1f0d12d83a4be47ceb1200728b"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/rollout/base.py",
+    "destination": "verl/workers/rollout/base.py",
+    "original_sha256": "f9814bde55bc95daae0a27070c8ef105cf131116e1e1c0be1503d4ded57c1baa"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/rollout/config.py",
+    "destination": "verl/workers/rollout/config.py",
+    "original_sha256": "0c6a8a28b9644a22a6827d690b39d4ae6f2c52d590714df49f564a285e197611"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/rollout/vllm_rollout/__init__.py",
+    "destination": "verl/workers/rollout/vllm_rollout/__init__.py",
+    "original_sha256": "4db77c8da766d718eab907765873fb569fb5319ce29e51f690d0023ed611e20a"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/rollout/vllm_rollout/dtensor_weight_loaders.py",
+    "destination": "verl/workers/rollout/vllm_rollout/dtensor_weight_loaders.py",
+    "original_sha256": "6f339c375fce0334fffa5fba3945e45e0fea6c367509a45e86a592de253e76a4"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/rollout/vllm_rollout/vllm_rollout_spmd.py",
+    "destination": "verl/workers/rollout/vllm_rollout/vllm_rollout_spmd.py",
+    "original_sha256": "dc0755331572a66ed825fd2f47a3111fa3de0d35671034605fef9013cc1728f5"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/sharding_manager/__init__.py",
+    "destination": "verl/workers/sharding_manager/__init__.py",
+    "original_sha256": "d736c2258db98c57fa97613b0128268e438cfd48ed309ebc8decdf1947d40bce"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/sharding_manager/base.py",
+    "destination": "verl/workers/sharding_manager/base.py",
+    "original_sha256": "23a713b4f06336e6768acb4bf8621e05256be32af3abf2f0bd8accc10082a974"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/sharding_manager/fsdp_ulysses.py",
+    "destination": "verl/workers/sharding_manager/fsdp_ulysses.py",
+    "original_sha256": "a71af867732670afd4fe5e28dd063b89d0afb940c98b91e87bc9b1dba68a8c3e"
+  },
+  {
+    "source": "Seg-Zero-main/verl/workers/sharding_manager/fsdp_vllm.py",
+    "destination": "verl/workers/sharding_manager/fsdp_vllm.py",
+    "original_sha256": "dabed2a85acf961bc48880e35fcc27ce1284b18303cead1a577698b0f8657d33"
+  },
+  {
+    "source": "Seg-Zero-main/training_scripts/model_merger.py",
+    "destination": "scripts/merge_checkpoint.py",
+    "original_sha256": "757efb45f15cbde0e6376150d93ec941caad07a4095acef4f8bb268a5d6ad77e"
+  },
+  {
+    "source": "Seg-Zero-main/LICENSE",
+    "destination": "licenses/Seg-Zero-Apache-2.0.txt",
+    "original_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/api.py",
+    "destination": "LLaMAFactory/src/api.py",
+    "original_sha256": "0b71f05f83c8f33a5ee63be1587df5829196ce312929e838a927b75640197a3a"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/__init__.py",
+    "original_sha256": "ac3cedbab920eb4ff39a0aa78ebc614a55d7afac85278396ebbc124f857b3ea6"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/api/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/api/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/api/app.py",
+    "destination": "LLaMAFactory/src/llamafactory/api/app.py",
+    "original_sha256": "2a6b905d67ffdc4f62343deb6971ef01f89652e9392d0e1da76994abbea3aba0"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/api/chat.py",
+    "destination": "LLaMAFactory/src/llamafactory/api/chat.py",
+    "original_sha256": "017f93f1d54429adce61924ed25bf61be1d26da315233398b1d448b2120f1661"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/api/common.py",
+    "destination": "LLaMAFactory/src/llamafactory/api/common.py",
+    "original_sha256": "86c278f4bca6ec354364aa108878f04c360e0e97b8163f6f107349b7a3e2ffa3"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/api/protocol.py",
+    "destination": "LLaMAFactory/src/llamafactory/api/protocol.py",
+    "original_sha256": "e8bcdd6ec45fb4a5aaec34a8becf9b954291ab4725905e60d50ac4f1ed787b4d"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/chat/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/chat/__init__.py",
+    "original_sha256": "15f9960ed2e888daa1d3104a736d138927b3a86f4faf01446d2046da386eed9d"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/chat/base_engine.py",
+    "destination": "LLaMAFactory/src/llamafactory/chat/base_engine.py",
+    "original_sha256": "21f8f22fe96ee40d480591d419e54fb07b4743e2905d683d297571b668eba55f"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/chat/chat_model.py",
+    "destination": "LLaMAFactory/src/llamafactory/chat/chat_model.py",
+    "original_sha256": "750a11b22e557ad3fd6d683895b2373937a79de143178c78ccb81fae261a06d1"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/chat/hf_engine.py",
+    "destination": "LLaMAFactory/src/llamafactory/chat/hf_engine.py",
+    "original_sha256": "e7cd2ede522cd357ea86115a2aab6aadb768ff2f336710fb5871a1b2f3bb3514"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/chat/kt_engine.py",
+    "destination": "LLaMAFactory/src/llamafactory/chat/kt_engine.py",
+    "original_sha256": "96f6a2783e1cc8df5b4853ae96a3feb28e554a3064cd602edb9bda411b62544f"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/chat/sglang_engine.py",
+    "destination": "LLaMAFactory/src/llamafactory/chat/sglang_engine.py",
+    "original_sha256": "5415a34ceeb8173763083b638b6bf37e33754e6643393baed1c1c719f2440766"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/chat/vllm_engine.py",
+    "destination": "LLaMAFactory/src/llamafactory/chat/vllm_engine.py",
+    "original_sha256": "172f4abf56392590609bb2ee47fe3829cb693e7f4f07e4ec37b73457a2baa029"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/cli.py",
+    "destination": "LLaMAFactory/src/llamafactory/cli.py",
+    "original_sha256": "d32b69e0b379718a9d0cf7bbf7032e6104f234cf53b13ad9e276a4a3fe7530d8"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/__init__.py",
+    "original_sha256": "e00ca55d2a9a73063c69a334d1595480b1802ace8a1589f5e59fa40493021c3a"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/collator.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/collator.py",
+    "original_sha256": "5be4ca6984a2f99d4dea627c2ef0fff95c66a8d73326a4ceae61dd01f56c7390"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/converter.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/converter.py",
+    "original_sha256": "10bdab384ea146ddad9f5d9373cdaa59fbe64db22e0128e2b32810f65d366080"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/data_utils.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/data_utils.py",
+    "original_sha256": "0a3ea47c5804c0ed304757dc35626efc927a992788beb5a0cdac5672cf1d60d2"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/formatter.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/formatter.py",
+    "original_sha256": "118ee409d88068965c1e5517ee13f5a860778068f877c35310f28845d95579f1"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/loader.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/loader.py",
+    "original_sha256": "07a16266a86fa4f7e963f47349994ed5271f1ea85478a3e9c170a79b2cd854bd"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/mm_plugin.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/mm_plugin.py",
+    "original_sha256": "34042d95b325d8ef9831b945b90df6ea3d14fa9117b489db35a6a19a371a75d9"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/parser.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/parser.py",
+    "original_sha256": "cca916a346c50b399555051eb98b62d28e2643f7c9764c6d8457db016a0f0155"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/processor/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/processor/__init__.py",
+    "original_sha256": "37e001ac9f5bc6495a2a354df683523d872ce43caba6d92cb673e7948fbc86a9"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/processor/feedback.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/processor/feedback.py",
+    "original_sha256": "970982a407048382ecd4e3836b3c0273522e8d797fd4f9b89f131b314437d596"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/processor/pairwise.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/processor/pairwise.py",
+    "original_sha256": "de5e30236c8199c53bc5fb2fbea48590f137f47709167570e99a9c65d5bd3249"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/processor/pretrain.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/processor/pretrain.py",
+    "original_sha256": "e2373327e199e342a46d499a78e74bf2bd6be31560b079c25d79c68ac27abe85"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/processor/processor_utils.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/processor/processor_utils.py",
+    "original_sha256": "5452edcf5e9ea67bfec3369537d478d65d17adc3c925aa95fda7a12453038204"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/processor/supervised.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/processor/supervised.py",
+    "original_sha256": "21554b511accf3bbc2478e03385c0f7aaabca1b94de3a0c0f294c1f0486c3296"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/processor/unsupervised.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/processor/unsupervised.py",
+    "original_sha256": "6309fcf8f2edc9f8b938baef0f1c1f2ed025cd10710cc3ed62e761c37a48ea39"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/template.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/template.py",
+    "original_sha256": "91b2805941f7d94685946a8609451d8edaa98b93c5f83fd05294e4bef6074b58"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/data/tool_utils.py",
+    "destination": "LLaMAFactory/src/llamafactory/data/tool_utils.py",
+    "original_sha256": "e7fd42993b82a36424b40d1d2ebcb1748ce25d4f4a7c72a7eb046df93c88885c"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/eval/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/eval/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/eval/evaluator.py",
+    "destination": "LLaMAFactory/src/llamafactory/eval/evaluator.py",
+    "original_sha256": "133b27cfd5ee7aafcc9f0c8e69bcbffac9078fd78b50af9b3c7d5ac5580cb6c4"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/eval/template.py",
+    "destination": "LLaMAFactory/src/llamafactory/eval/template.py",
+    "original_sha256": "07223c49634e8b8c0319b431d70c208f176e0ddda8782d1c758478d3c4e8e33e"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/extras/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/extras/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/extras/constants.py",
+    "destination": "LLaMAFactory/src/llamafactory/extras/constants.py",
+    "original_sha256": "537e51d6b66d98ebbce0cb7192e3e3840dd8cf7bbd2b667a769682c5c076a5bd"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/extras/env.py",
+    "destination": "LLaMAFactory/src/llamafactory/extras/env.py",
+    "original_sha256": "dfa7dc14ea9f66a175212df61fcdd4ec9f5f2fe0c35f5e26cb3785d8422e0c18"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/extras/logging.py",
+    "destination": "LLaMAFactory/src/llamafactory/extras/logging.py",
+    "original_sha256": "ee04067888d1de12b5aed4e721ef9e7d9f7055c5906972f2c39c768ad2cbe261"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/extras/misc.py",
+    "destination": "LLaMAFactory/src/llamafactory/extras/misc.py",
+    "original_sha256": "c8a1c3c50695797307119ceb18c8de309b0feaa5fd29a1fc0f67efa52ff2d83e"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/extras/packages.py",
+    "destination": "LLaMAFactory/src/llamafactory/extras/packages.py",
+    "original_sha256": "a08e40935e193f4e6e604437d8529f911069fe3538c1737344f5c5e5dfe6428a"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/extras/ploting.py",
+    "destination": "LLaMAFactory/src/llamafactory/extras/ploting.py",
+    "original_sha256": "19a266908828daa94d859b037338aceaffd19aaeee1f081bff1063b67201cd6f"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/hparams/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/hparams/__init__.py",
+    "original_sha256": "5db5c8a01e9e6380b530d126ac536527714aaec3516f22073635f6e95681fdf4"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/hparams/data_args.py",
+    "destination": "LLaMAFactory/src/llamafactory/hparams/data_args.py",
+    "original_sha256": "90fbe15fd9d4fe9975bcbad0e4c32ddde303c5417bdd026ec1b945b2b7d42e39"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/hparams/evaluation_args.py",
+    "destination": "LLaMAFactory/src/llamafactory/hparams/evaluation_args.py",
+    "original_sha256": "4be4a7eca938147c963c8ec94a219e5524090961ba0a0cc72a22bc7df42ff686"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/hparams/finetuning_args.py",
+    "destination": "LLaMAFactory/src/llamafactory/hparams/finetuning_args.py",
+    "original_sha256": "7098bb43b3c9cfe2e3eb8feacdd9e2cfb3d1151c9f178a57d19f57f133a30733"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/hparams/generating_args.py",
+    "destination": "LLaMAFactory/src/llamafactory/hparams/generating_args.py",
+    "original_sha256": "23b8453d233580a4a10765ae0ac5e0c15652a57b5d0e3612ad0473630a6445b4"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/hparams/model_args.py",
+    "destination": "LLaMAFactory/src/llamafactory/hparams/model_args.py",
+    "original_sha256": "53d516fde7873531df928cadaed5e3bfd70ede090098987ff3d846432fe9c15d"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/hparams/parser.py",
+    "destination": "LLaMAFactory/src/llamafactory/hparams/parser.py",
+    "original_sha256": "cda5d091d850ade6f73611837637bf47f6abc6d9a331a60abf1f543cf564152c"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/hparams/training_args.py",
+    "destination": "LLaMAFactory/src/llamafactory/hparams/training_args.py",
+    "original_sha256": "48c377b8ac2d24329b28738791efa5c0203f2aa19f1f5aad7f2fd99826fd016c"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/launcher.py",
+    "destination": "LLaMAFactory/src/llamafactory/launcher.py",
+    "original_sha256": "a2d79d6dab3935422a69de8f1a47eda1de60ce4a0bcaf0dc02032bd88c221bde"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/__init__.py",
+    "original_sha256": "ecc13a66e380265e515c6bffbbd142061aed779905c00c5638233919d96379a4"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/adapter.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/adapter.py",
+    "original_sha256": "db1ec6792e9b1b437071087257e973d092a25b4fb519eba58662b826ea0e9bf4"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/loader.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/loader.py",
+    "original_sha256": "cb3e13c71ad1d2f27e3675ece5ec913a2b1a7a93dc95bb89ddc1237249c1b622"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/attention.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/attention.py",
+    "original_sha256": "32eb2bcb548f83ff6e70c9c5fee438152131cf66dc42406b995812aa2cdaf4ff"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/checkpointing.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/checkpointing.py",
+    "original_sha256": "021ffa50d91d90d0161d8fb36c99a48025e43da3302f6f2fcdad8be6c20c13f7"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/embedding.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/embedding.py",
+    "original_sha256": "03d55b82f94879dec7dbb15433c2b71b2d3ecc96abce3bd82996fb05b2c10fa3"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/ktransformers.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/ktransformers.py",
+    "original_sha256": "8fd0cc7e2d8cf699ad0516d52974ded003999c31d59ffc4752d2b7642ccdc761"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/kv_cache.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/kv_cache.py",
+    "original_sha256": "a162a35c87762bf91f9ada0714d4da24e83abc2929fe82f3946a6c9beebbe894"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/liger_kernel.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/liger_kernel.py",
+    "original_sha256": "6b5089648a51e77a7ae58800ad3947ca73e0a3db11e2b2d5db5bf6667ebacef2"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/longlora.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/longlora.py",
+    "original_sha256": "a38ad775c223a4eabcf4f8840d72b854b1f00841ab09bd11478da2c540e1e393"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/misc.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/misc.py",
+    "original_sha256": "ac03f5286f53ef320242c4088219ac8165cb1d90f4d7262c5687cb07732daf76"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/mod.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/mod.py",
+    "original_sha256": "675e96990dd09995a7540f60f12a3a51cb3b57c7f97cdf9a05902d9c2f5aca36"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/moe.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/moe.py",
+    "original_sha256": "50e451adf702659ca81157c60aff4ff01bd9ba5a29d917c58e1c70e2bb45733c"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/packing.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/packing.py",
+    "original_sha256": "05c7ba6fbf58eebe32cf8e0177231bc671561e96ae54a6c7af6aed643cc99210"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/quantization.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/quantization.py",
+    "original_sha256": "7f6e63838081f0595a7ae37528ae304d73516b6c722f6b6380f0962f90869015"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/rope.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/rope.py",
+    "original_sha256": "347c9438f5cc8709d84cb37accf3950df62862c14f1883cf43dfda906a421bb5"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/unsloth.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/unsloth.py",
+    "original_sha256": "40d3498feeb9d27a4ebe9ecb01b7a6a33feace62dd5cce27b850277af087bac8"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/valuehead.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/valuehead.py",
+    "original_sha256": "151023380cb75e1d7fb120de1cea2af6b2fc6159d84be85dacdd872055087412"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/model_utils/visual.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/model_utils/visual.py",
+    "original_sha256": "0224e772c0959635b0938ec2eaadc7ba3fc455d6f9ad33a578122f921e8d3c43"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/model/patcher.py",
+    "destination": "LLaMAFactory/src/llamafactory/model/patcher.py",
+    "original_sha256": "bde4bf85a540267ed9af7a131d23f70edfceec340c649a175f35ace8b77d5cde"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/third_party/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/third_party/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/third_party/muon/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/third_party/muon/__init__.py",
+    "original_sha256": "d3d8af7d3e2a9eceafc91afc6ad367485c96c636eb8f27c86c6dcdf88bc727ad"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/third_party/muon/muon.py",
+    "destination": "LLaMAFactory/src/llamafactory/third_party/muon/muon.py",
+    "original_sha256": "dc30cd84142fe2f80d0d4728648e9270550907bd6f4bfd7b1becffd0215910ea"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/callbacks.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/callbacks.py",
+    "original_sha256": "8dc4e36305f222c52c91627f8a440e8dde621b84cd208585e328fa3c667dda3a"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/dpo/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/dpo/__init__.py",
+    "original_sha256": "9b2dbca82aee3f7704500647336a7956d6029552020c1c5de7f1e2ec6d9cca9b"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/dpo/trainer.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/dpo/trainer.py",
+    "original_sha256": "a2cb1bb83e9c093824d2ab617598c980ba6ec29ab70a5c66efbba8e4434ec831"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/dpo/workflow.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/dpo/workflow.py",
+    "original_sha256": "53c431a31f9868fe55249d9a9fb387e1c154b3936fedb3c3ecfa25e41a93210d"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/fp8_utils.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/fp8_utils.py",
+    "original_sha256": "8654be3a74da4fcf428472ee65b7726a08455c9b2451b399537680774c771cf6"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/ksft/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/ksft/__init__.py",
+    "original_sha256": "b483c6da6114a2b0156011eed3b01da365daa98141787973367fca02ab0ce677"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/ksft/workflow.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/ksft/workflow.py",
+    "original_sha256": "078cfcd38cba92cb76205b9e5635cc9589184554b23726c4ffb617a24855be9f"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/kto/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/kto/__init__.py",
+    "original_sha256": "40bade681d34f680959be317376ceadcea6504164debc937455a07900ce3692b"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/kto/trainer.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/kto/trainer.py",
+    "original_sha256": "a99bd803fa9c4a979ccda70b10a6b87c66c17cab29fe02f5a849d7d1a11ef545"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/kto/workflow.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/kto/workflow.py",
+    "original_sha256": "694d66cadb3d0f0e6e7611753e7067b78fdd2f99dccb4388fef783f8eb0d9777"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/mca/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/mca/__init__.py",
+    "original_sha256": "ba72c89df2a9c836622adb550b513efcdf11465af981c688b2d58a2761b55338"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/mca/trainer.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/mca/trainer.py",
+    "original_sha256": "92672f10af73a550ace7f0958c9d52ec866d7eddeaa1bc652a339f954ced2c0e"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/mca/workflow.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/mca/workflow.py",
+    "original_sha256": "b2442181f1fe151566e02d8f8c6e3d969a2275624b86de6052e9f8e8f30db0aa"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/ppo/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/ppo/__init__.py",
+    "original_sha256": "f418101b642522951b2b24a9076b07afb09f2a16d5877dd4a352ab3603c56f0f"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/ppo/ppo_utils.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/ppo/ppo_utils.py",
+    "original_sha256": "776bdd79746ccfc86998dfa489b4339892d39d0101b896a1da93279f2dc86c59"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/ppo/trainer.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/ppo/trainer.py",
+    "original_sha256": "9858d6d6a799f27a4b84ba17b213f6fc4c4c1e004b600b8783d89f15c3393cac"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/ppo/workflow.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/ppo/workflow.py",
+    "original_sha256": "62f78fcd3e735723f14b7b4a6ca5620a33c2aec58f0007e391284637a16a713f"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/pt/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/pt/__init__.py",
+    "original_sha256": "bcb16c0d3e8aece0a6e5392ce746640ea9a23e3cfc26f89b979ce7d8bf8a37f3"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/pt/trainer.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/pt/trainer.py",
+    "original_sha256": "5181d040c98107e17728a0c382f3bb9597ebbf2a080678e52b065ed3cab860a0"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/pt/workflow.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/pt/workflow.py",
+    "original_sha256": "760130406928e26b464ed891ce793bc1b007f2166e47d8e80d76a7d0e07cb158"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/rm/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/rm/__init__.py",
+    "original_sha256": "926652616e721319140a27d3aad3012a4ff5f1a55a61d77e042f815ae42c8488"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/rm/metric.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/rm/metric.py",
+    "original_sha256": "8752fd66b44d03e47c935fb4959eb840e7c34e5e676d4bbcb08b61a1385d4ef6"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/rm/trainer.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/rm/trainer.py",
+    "original_sha256": "d1588cf683590d6187713496459c410ba92608fcd736270e854bccecfcc1e743"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/rm/workflow.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/rm/workflow.py",
+    "original_sha256": "b39b12c5cdfeccd33405853f63b2e40cff5b2fc920a63665148608030072c687"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/sft/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/sft/__init__.py",
+    "original_sha256": "27f7d9876d56309efd2bff46b8c10bbc034f37f8b1d9ddd2f1cd6b4a25cd88e5"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/sft/metric.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/sft/metric.py",
+    "original_sha256": "ed8807eaca1637edb2144b1e190a1cb84e5644400e21a16745477b49a132cab6"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/sft/trainer.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/sft/trainer.py",
+    "original_sha256": "66e2c3dbbe0acda54090edb6e29a9e3fbc0bd7ed7aaf808bacac61d624e3172b"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/sft/workflow.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/sft/workflow.py",
+    "original_sha256": "2bce932ce1dae0d907e623bd0e4553854d8fdf1d6f80797682eab1898ba6b3eb"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/test_utils.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/test_utils.py",
+    "original_sha256": "4b5739d915d9b9b9bf848209138e7e395e98b6432963d3c3c98fc48c85eaec35"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/trainer_utils.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/trainer_utils.py",
+    "original_sha256": "664dd6755d910e1db3c9a5e2bdc0975115e58c6b9fc7a80ed04eba719fea6041"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/train/tuner.py",
+    "destination": "LLaMAFactory/src/llamafactory/train/tuner.py",
+    "original_sha256": "256bc535554b21068c458198d3f03c7c0e4ecc9637a4cc24305fdbfa0bb158c3"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/config/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/config/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/config/data_args.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/config/data_args.py",
+    "original_sha256": "bd9a92bf34b8db89cb0d22953800393bd6ed3c2c56587bddcedc86a36b85be08"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/config/model_args.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/config/model_args.py",
+    "original_sha256": "fb7910ed5ede1534e5d8e0260d0c464fd56f03306365e58a4aa30ea649c25659"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/config/parser.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/config/parser.py",
+    "original_sha256": "749358d61244ad7f93a0a41ad1b2a9c0ff608784ebdb2814edb77b442aa087fc"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/config/sample_args.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/config/sample_args.py",
+    "original_sha256": "47ec1973ef1d04b527505f8301065f3e1fbaa883efeb528942f849949f7d913f"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/config/training_args.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/config/training_args.py",
+    "original_sha256": "bbd5e463841164904db38b2bac074da6efd1bd44301d5af05c622f408e6d9245"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/core/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/core/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/core/base_trainer.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/core/base_trainer.py",
+    "original_sha256": "0478b1fbedfd351ccd715a236f006d806e18aeaff9f9b1d307e0d3b06fb82424"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/core/chat_sampler.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/core/chat_sampler.py",
+    "original_sha256": "5b9d0cb15944aea7bde15e8b53b1efb48e0a7423b38044d515a2cc80e38b8a1d"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/core/data_engine.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/core/data_engine.py",
+    "original_sha256": "9d5d55d3913ae9e3d00001e1474ee490b862f761c38074d3b616dd9b69bf83e2"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/core/model_engine.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/core/model_engine.py",
+    "original_sha256": "dfd68099b85a0715a7a0593372d72eae33410b686c1a1c3c6860d397cb9f7424"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/extras/types.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/extras/types.py",
+    "original_sha256": "c7e0fc8790abc76997f6209e1f7b333d2ca57e6975896776f8c6c8164b674d87"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/launcher.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/launcher.py",
+    "original_sha256": "f3188e3846cdd29f9e4c20423b82a06bcb7c523ad5de2f0138992c8cf90b76a1"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/data_plugins/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/data_plugins/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/data_plugins/converter.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/data_plugins/converter.py",
+    "original_sha256": "a7029315ea32d48bf8b2f6da0e4b1e43c0edfbff5d3452744ef6c0c6aee77f72"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/data_plugins/loader.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/data_plugins/loader.py",
+    "original_sha256": "eb3548f75751ac95781342da54bd7f484d2b07e93d5cb4a8ecfaa6b91bdc8dba"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/data_plugins/template.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/data_plugins/template.py",
+    "original_sha256": "af3fdc361c9636160934f6191e5aa2e2c42256b81e6207a76d5050f4c7418dee"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/model_plugins/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/model_plugins/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/model_plugins/added_token.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/model_plugins/added_token.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/model_plugins/kernels/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/model_plugins/kernels/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/model_plugins/kernels/constants.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/model_plugins/kernels/constants.py",
+    "original_sha256": "33f775445f517f545ea77f8fbade3e0d8fcb34c667d9a565d1bc835dc7c57227"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/model_plugins/kernels/fa/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/model_plugins/kernels/fa/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/model_plugins/kernels/mlp/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/model_plugins/kernels/mlp/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/model_plugins/kernels/mlp/npu_fused_moe.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/model_plugins/kernels/mlp/npu_fused_moe.py",
+    "original_sha256": "1aa7b1fb0d494e319185345e59f2cffa981e965f63f1e126698cb49e330c7891"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/model_plugins/kernels/mlp/npu_swiglu.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/model_plugins/kernels/mlp/npu_swiglu.py",
+    "original_sha256": "477072af40e0bbf229f7ef4c1e382508af21810bbb299480b3325e72da83a469"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/model_plugins/kernels/registry.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/model_plugins/kernels/registry.py",
+    "original_sha256": "693c6863de8431075f698e86887197ffa95857c9beb5153b9056c5ee0ed51c8e"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/model_plugins/kernels/rms_norm/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/model_plugins/kernels/rms_norm/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/model_plugins/kernels/rms_norm/npu_rms_norm.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/model_plugins/kernels/rms_norm/npu_rms_norm.py",
+    "original_sha256": "114ee2cb18e8e454f3ffdc94ebb60b614811231f3fcfde547904c48f03db89d2"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/model_plugins/kernels/rope/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/model_plugins/kernels/rope/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/model_plugins/kernels/rope/npu_rope.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/model_plugins/kernels/rope/npu_rope.py",
+    "original_sha256": "ee2d84874bbf7791d20e79db0764facdb804962c7cc6db72faa7d7d427dae745"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/model_plugins/peft.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/model_plugins/peft.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/sampler_plugins/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/sampler_plugins/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/sampler_plugins/vllm.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/sampler_plugins/vllm.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/trainer_plugins/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/trainer_plugins/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/trainer_plugins/distributed/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/trainer_plugins/distributed/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/plugins/trainer_plugins/distributed/accelerate.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/plugins/trainer_plugins/distributed/accelerate.py",
+    "original_sha256": "90512cc13c7a9a7042d447222e105f4c7eed99dffa9b049531653706afcd0313"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/trainers/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/trainers/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/trainers/dpo_trainer.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/trainers/dpo_trainer.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/trainers/rm_trainer.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/trainers/rm_trainer.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/v1/trainers/sft_trainer.py",
+    "destination": "LLaMAFactory/src/llamafactory/v1/trainers/sft_trainer.py",
+    "original_sha256": "b0ca7d29f9d43c86566fa592176c51d50e22a75ee9553f72b8c55ba507a617bd"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/chatter.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/chatter.py",
+    "original_sha256": "97f5e58c8bec914edc2afa5ea80cacdad45cb2e5bff289f9d33c245c15cafe67"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/common.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/common.py",
+    "original_sha256": "b51911d71a64900195f47135f45108f1bafaae586c1f063fb50d1380b0a3f68d"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/components/__init__.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/components/__init__.py",
+    "original_sha256": "886caf84a6d5a4b0f9d4bb2f81b74b567bb9c32c40fbf34d58c0204309b70b5d"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/components/chatbot.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/components/chatbot.py",
+    "original_sha256": "de4e75ce01838a791fe4f781e3ab56fd64b4b2eefd5b4f7ac91da605dedfa20f"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/components/data.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/components/data.py",
+    "original_sha256": "0981ffa2550840115f12fce36e6a8d94fd05134242f4e6639df4e504895fca87"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/components/eval.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/components/eval.py",
+    "original_sha256": "996ec48471731280b0eab446f30619861f42504380ab55536307baea0b101f7b"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/components/export.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/components/export.py",
+    "original_sha256": "fff08c765905e1a39c471e3d3c95e055572fcf9daa9f5ba2baeb806fe36065b3"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/components/footer.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/components/footer.py",
+    "original_sha256": "4ce0e8d322c59c2c5dd9789d97865001b65049670df1a49c4895724dd7b129af"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/components/infer.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/components/infer.py",
+    "original_sha256": "1b53c34c6096733c910a7503e8e887ce2587fcb10dcc29d5234ce772f410b652"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/components/top.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/components/top.py",
+    "original_sha256": "fbfb16c63ceaf9adfdd518ae7a11bbb12e43cfc1397ee5024f4fbb1ce74b14bd"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/components/train.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/components/train.py",
+    "original_sha256": "549a768c1f8697a2c0b4efb2f586ed1f465e0727526d468df93e4ac86f3aa5a5"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/control.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/control.py",
+    "original_sha256": "0381bf907f10c96c9b8995c915167a2f2788751b5b7d895ea431c9da57570937"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/css.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/css.py",
+    "original_sha256": "6291fd0721301dd7d97e3ea45bbd049b790093d2bc183582d441b8ba9beb8af7"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/engine.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/engine.py",
+    "original_sha256": "a556375e7e6b532dcf9b4dd670eb68bd9ca26d96dc88eece09c727386404b548"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/interface.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/interface.py",
+    "original_sha256": "2a7cb77e442137d92d361eed95d430e362b57a006acb49750d8049b5f740b5d8"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/locales.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/locales.py",
+    "original_sha256": "6c44e475e38f25cdf1ff21b3d2a5c41748b8f89c2d80136c56298f4361c4a00b"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/manager.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/manager.py",
+    "original_sha256": "206b7d13a1074be0f1cd00c1d3752aaadade753fb1d846bd9e9322fbc21e3158"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/llamafactory/webui/runner.py",
+    "destination": "LLaMAFactory/src/llamafactory/webui/runner.py",
+    "original_sha256": "2b6ffdced0beda168d0d7d5f3f44e1521e10ba20398acebbad449da40225c955"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/train.py",
+    "destination": "LLaMAFactory/src/train.py",
+    "original_sha256": "364cd96ecf0d69fb701ee98f2a86e60a9ebe2376e9924be990f6e9b67314a219"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/src/webui.py",
+    "destination": "LLaMAFactory/src/webui.py",
+    "original_sha256": "bbea39f6ba173357e75e01c8f739f87d784329182e9e1682faecf9578ef619d6"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/setup.py",
+    "destination": "LLaMAFactory/setup.py",
+    "original_sha256": "88a3e6a9dd191548cc4bcbeac4c22fb120b5c6bbdf43bd56764c86edfb26ebee"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/pyproject.toml",
+    "destination": "LLaMAFactory/pyproject.toml",
+    "original_sha256": "0c88d7d67d6ba6afce7336c69066f8628082f9a02e9444f2a837c16ffaab1d80"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/requirements.txt",
+    "destination": "LLaMAFactory/requirements.txt",
+    "original_sha256": "57991b82409189d2f3cda3a5042ef6a08d70c2c840468f3168ba5a9edf20106b"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/README.md",
+    "destination": "LLaMAFactory/README.md",
+    "original_sha256": "28e6cc9ac38f9c3387270568bc37f131ab4fe1a53aadb5dc6915c806076d909d"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/LICENSE",
+    "destination": "LLaMAFactory/LICENSE",
+    "original_sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/MANIFEST.in",
+    "destination": "LLaMAFactory/MANIFEST.in",
+    "original_sha256": "e0e1489fd98d775fce2e18dca879cb6d9a3ca68c9538c9d6eddd07e5c36d2f74"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/LICENSE",
+    "destination": "licenses/LLaMA-Factory-Apache-2.0.txt",
+    "original_sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/examples/deepspeed/ds_z3_config.json",
+    "destination": "configs/deepspeed/zero3.json",
+    "original_sha256": "6e2753c870561658babe45922114f14ad899d5e4cfb6deb38fe47935ee60dc6f"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/my_scripts/qwen25vl7b_sft_down2x/fb_spectokn1_mix_p_a_t_pat.yaml",
+    "destination": "configs/historical/fb_spectokn1_mix_p_a_t_pat.yaml",
+    "original_sha256": "02d6bb66b477354b0bb6a2f8d75bb751f8c3de1466624334dfbe66831a488392"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/my_scripts/qwen25vl7b_sft_down2x/fb_spectokn1_mix_p_a_t_pat_ptat.yaml",
+    "destination": "configs/historical/fb_spectokn1_mix_p_a_t_pat_ptat.yaml",
+    "original_sha256": "e6fc602e50360c0c30a073a5d8e5f225d743541cc456030095f05260868c28b0"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/my_scripts/qwen25vl7b_sft_down2x/fb_spectokn1_mix.yaml",
+    "destination": "configs/historical/fb_spectokn1_mix.yaml",
+    "original_sha256": "243b726edac23895f04523a6ff8ec7b9d822d2afd5244710ba7d1ecc3885bdf9"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/evaluation_scripts/planning_utils.py",
+    "destination": "pixelpilot/benchmark/planning_utils.py",
+    "original_sha256": "3496c07b2de2052302e3e268019f0590366fb94f1ded97e7adab6241255085e4"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/evaluation_scripts/map_api.py",
+    "destination": "pixelpilot/benchmark/map_api.py",
+    "original_sha256": "0b050afbbee065fd6f89764196ed2bb28807fc01b6a5e90dcb93daa55974c549"
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/prepare_dataset/generare_2d/fb_mix_percep_action_traj.py",
+    "destination": "pixelpilot/data/projection.py",
+    "original_sha256": "807da61d6a5e976e8b977a5538f7e29b123ac6427474f594994126e936e56902",
+    "adaptation": "Extract geometric projection methods; inject NuScenes handle."
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/prepare_dataset/create_vision_cot_data.py",
+    "destination": null,
+    "original_sha256": "401e5840077d60e28907e245d601d46b1fefe3d43cc9e8f5af3545b093cbfedb",
+    "adaptation": "Reference for reorganized preparation utilities; original file not bundled."
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/prepare_dataset/generare_2d/cat_img.py",
+    "destination": null,
+    "original_sha256": "1ad2be6f400f904ef2daa9ca548f1f378c294c9cea1f60ed5e4c0965c1a72b3c",
+    "adaptation": "Reference for reorganized preparation utilities; original file not bundled."
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/prepare_dataset/generare_2d/fb_all_cot.py",
+    "destination": null,
+    "original_sha256": "4eb29b35a0d565b51adf0e42436cdb4c03eeeb28b4c2f0d2b732bdf0e411ae30",
+    "adaptation": "Reference for reorganized preparation utilities; original file not bundled."
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/prepare_dataset/gen_nuscenes_grpo.py",
+    "destination": null,
+    "original_sha256": "8417c4bdf81a64f2e90d544f87cb995d1ccbbb8fd2a6a57e2817397a42832b04",
+    "adaptation": "Reference for reorganized preparation utilities; original file not bundled."
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/evaluation_scripts/eval_2d.py",
+    "destination": "pixelpilot/benchmark/evaluate.py",
+    "original_sha256": "b7121f469a27c7f09cec6ea6ccec62788b422a215bc14241c061b7e546e2f6de",
+    "adaptation": "Retain selected metric aggregation; use id alignment, independent info GT and fail-fast scoring."
+  },
+  {
+    "source": "LLaMA-Factory-0.9.4/prepare_dataset/create_vision_cot_data.py",
+    "destination": "pixelpilot/data/reasoning_prompt.py",
+    "original_sha256": "401e5840077d60e28907e245d601d46b1fefe3d43cc9e8f5af3545b093cbfedb",
+    "adaptation": "Retain teacher prompt; new resumable candidate and conditioning/selection wrappers."
+  }
+]

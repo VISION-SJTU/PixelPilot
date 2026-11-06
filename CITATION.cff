@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the PixelPilot paper."
+title: "PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving"
+type: software
+license: Apache-2.0
+authors:
+  - family-names: Tang
+    given-names: Pin
+  - family-names: Wang
+    given-names: Guoqing
+  - family-names: Ren
+    given-names: Xiangxuan
+  - family-names: Wang
+    given-names: Zhongdao
+  - family-names: Zhao
+    given-names: Guodongfang
+  - family-names: Feng
+    given-names: Bailan
+  - family-names: Ma
+    given-names: Chao
+url: "https://pixelpilotvla.github.io/"
+preferred-citation:
+  type: article
+  title: "PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving"
+  authors:
+    - family-names: Tang
+      given-names: Pin
+    - family-names: Wang
+      given-names: Guoqing
+    - family-names: Ren
+      given-names: Xiangxuan
+    - family-names: Wang
+      given-names: Zhongdao
+    - family-names: Zhao
+      given-names: Guodongfang
+    - family-names: Feng
+      given-names: Bailan
+    - family-names: Ma
+      given-names: Chao
+  journal: arXiv
+  year: 2026
+  doi: 10.48550/arXiv.2607.04637
+  url: "https://arxiv.org/abs/2607.04637"

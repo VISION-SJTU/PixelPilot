@@ -1,0 +1,35 @@
+PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving
+nuScenes source release 0.2.0, prepared 2026-11-05.
+
+This release is distributed under the Apache License, Version 2.0. Existing
+copyright/license notices apply to their respective components and are retained.
+
+The bundled LLaMAFactory source is the locally supplied
+LLaMA-Factory-0.9.4 research snapshot. Its internal version is 0.9.4.dev0.
+Copyright notices credit the LlamaFactory team, HuggingFace Inc. and other
+original contributors where present. Its upstream Apache license is retained
+both with the source and under licenses/.
+
+The verl/ package and checkpoint merger come from the supplied Seg-Zero-main
+snapshot, based on Seg-Zero, EasyR1 and veRL. Original Bytedance and other
+contributor notices are preserved. The recovered nuScenes planning/map helper
+files preserve NVIDIA and nuScenes-devkit copyright/license notices.
+No exact upstream commit identifier was supplied for either research snapshot.
+Original source SHA-256 values are recorded in docs/source_manifest.json.
+
+Release adaptations include configurable local paths; deterministic multi-task
+sampling; extracted projection helpers; SFT/GRPO data validation and registration;
+a portable SFT configuration derived from a supplied two-epoch experiment;
+explicit use of the bundled SFT framework; lazy/calibration-cached GRPO rewards;
+a null validation-data field; empty-response handling; the training-step stop
+boundary correction; local-only checkpoint merging; explicit inference image
+pixel limits; resumable teacher candidate generation and new conditioning,
+selection and SFT attachment glue; id-aligned metric wrappers with explicit
+frames and denominators; source audit, tests, CI and reproducible exports.
+The unused red-light helper requiring missing expand_lane code is omitted.
+Modified upstream files carry modification notices. Original metric equations
+and the historical GRPO reward formula are retained, with limitations documented.
+
+This source license does not grant rights to separately obtained datasets,
+teacher services or pretrained model weights. No dataset/weight/log artifacts
+are included in the source export.

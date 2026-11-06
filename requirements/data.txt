@@ -1,0 +1,3 @@
+-r base.txt
+pyquaternion==0.9.9
+nuscenes-devkit>=1.1.11,<2

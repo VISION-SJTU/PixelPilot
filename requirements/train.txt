@@ -1,0 +1,21 @@
+# Direct dependencies observed in the supplied 2025-10-15 run snapshot.
+# Install torch first and flash-attn separately; see docs/installation.md.
+-r base.txt
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.51.3
+vllm==0.8.5.post1
+xformers==0.0.29.post2
+accelerate==1.10.0
+peft==0.17.0
+ray==2.48.0
+tensordict==0.9.1
+omegaconf==2.3.0
+codetiming==1.4.0
+einops==0.8.1
+qwen-vl-utils==0.0.11
+nuscenes-devkit==1.1.11
+pyquaternion==0.9.9
+wandb==0.21.1
+tokenizers==0.21.4
+safetensors==0.6.2

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pixelpilot-nuscenes"
+version = "0.2.0"
+description = "PixelPilot nuScenes research code and release tools"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "licenses/*.txt"]
+authors = [{name = "PixelPilot authors"}]
+dependencies = []
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2607.04637"
+Project = "https://pixelpilotvla.github.io/"
+
+[tool.setuptools.packages.find]
+include = ["pixelpilot*", "verl*"]
+
+[tool.ruff]
+line-length = 119
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E9", "F63", "F7", "F82"]

@@ -1,0 +1,15 @@
+include README.md README_zh.md LICENSE NOTICE THIRD_PARTY_NOTICES.md CITATION.cff .gitignore
+recursive-include configs *.yaml *.json
+recursive-include LLaMAFactory *.py *.toml *.txt *.md *.in LICENSE
+prune LLaMAFactory/build
+prune LLaMAFactory/dist
+prune LLaMAFactory/src/*.egg-info
+recursive-include docs *.md *.json
+recursive-include examples *.json *.jsonl
+recursive-include licenses *.txt
+recursive-include requirements *.txt
+recursive-include scripts *.py *.sh
+recursive-include tests *.py
+recursive-include .github *.yml
+global-exclude *.pyc
+global-exclude __pycache__
